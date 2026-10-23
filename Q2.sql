@@ -1,5 +1,5 @@
 select 
-	consultas.paciente_id as id,
+	consultas.id as id,
 	pacientes.nome as Paciente,
 	consultas.data_hora as Data,
 	medicos.nome as Medico,
