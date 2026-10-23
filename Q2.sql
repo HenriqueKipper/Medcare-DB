@@ -1,8 +1,9 @@
 select 
-	consultas.paciente_id,
-	consultas.data_hora,
-	medicos.nome,
-	especialidades.nome,
+	consultas.paciente_id as id,
+	pacientes.nome as Paciente,
+	consultas.data_hora as Data,
+	medicos.nome as Medico,
+	especialidades.nome as Especialidade,
 	consultas.status
 FROM
 	consultas
